@@ -15,14 +15,16 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               {[
-                { name: "twitter", icon: <Twitter size={20} />, color: "bg-[#1DA1F2]",url: "https://twitter.com/ecell_scsit" },
-                { name: "facebook", icon: <Facebook size={20} />, color: "bg-[#1877F2]",url:"https://www.facebook.com/ecellscsit" },
-                { name: "instagram", icon: <Instagram size={20} />, color: "bg-[#E4405F]",url: "https://www.instagram.com/ecell_scsit?igsh=MXBwZzRuemV0Z2Vidg=="},
-                { name: "linkedin", icon: <Linkedin size={20} />, color: "bg-[#0A66C2]",url: "https://linkedin.com/company/ecell-scsit" }
+                { name: "twitter", icon: <Twitter size={20} />, color: "bg-[#1DA1F2]", url: "https://twitter.com/ecell_scsit" },
+                { name: "facebook", icon: <Facebook size={20} />, color: "bg-[#1877F2]", url: "https://www.facebook.com/ecellscsit" },
+                { name: "instagram", icon: <Instagram size={20} />, color: "bg-[#E4405F]", url: "https://www.instagram.com/ecell_scsit?igsh=MXBwZzRuemV0Z2Vidg==" },
+                { name: "linkedin", icon: <Linkedin size={20} />, color: "bg-[#0A66C2]", url: "https://linkedin.com/company/ecell-scsit" }
               ].map((social) => (
                 <a
                   key={social.name}
-                  href="#"
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`w-10 h-10 flex items-center justify-center rounded-full ${social.color} text-white hover:opacity-90 transition-opacity duration-300`}
                   aria-label={social.name}
                 >
