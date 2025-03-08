@@ -114,16 +114,21 @@ const AboutSection: React.FC = () => {
             <Card className="bg-background/95 dark:bg-background/90 backdrop-blur-sm border border-border/50 rounded-lg shadow-lg overflow-hidden">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="p-3 rounded-full bg-secondary mr-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
-                      <path d="M12 2l4 4h-3v6h-2V6H8l4-4z" />
-                    </svg>
+                  <div className="flex items-center gap-4">
+                    <ImageWithFallback
+                      src="/images/hod.jpeg"
+                      alt="HOD SCSIT"
+                      className="w-16 h-16 rounded-full object-cover"
+                    />
+                    <div>
+                      <h3 className="text-2xl font-bold text-foreground">Our HOD Quote</h3>
+                      <p className="text-sm text-muted-foreground">Dr. Ugrasen Suman</p>
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold text-foreground">About SCSIT</h3>
                 </div>
-                  <p className="text-foreground">
-                    SCSIT, established in 1986, is a hub for cutting-edge tech education, offering M.Tech, M.Sc., MBA, PGDCA, and BCA programs tailored to industry needs. With a strong focus on research, innovation, and entrepreneurship, the school provides state-of-the-art labs, ICT-enabled infrastructure, and collaborations with top organizations like DRDO, ISRO, and C-DAC. Students gain hands-on experience through projects, internships, and real-world problem-solving, fostering technical expertise and leadership. Supported by various student development initiatives and backed by experienced faculty, SCSIT is committed to shaping future-ready IT professionals equipped to drive technological advancements and entrepreneurship.
-                  </p>
+                <p className="text-foreground">
+                  SCSIT, established in 1986, is a hub for cutting-edge tech education, offering M.Tech, M.Sc., MBA, PGDCA, and BCA programs tailored to industry needs. With a strong focus on research, innovation, and entrepreneurship, the school provides state-of-the-art labs, ICT-enabled infrastructure, and collaborations with top organizations like DRDO, ISRO, and C-DAC. Students gain hands-on experience through projects, internships, and real-world problem-solving, fostering technical expertise and leadership. Supported by various student development initiatives and backed by experienced faculty, SCSIT is committed to shaping future-ready IT professionals equipped to drive technological advancements and entrepreneurship.
+                </p>
               </CardContent>
             </Card>
           </RevealAnimation>
