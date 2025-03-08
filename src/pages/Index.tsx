@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
-import { Toaster } from 'src/components/ui/toaster';
-import Navbar from 'src/components/Navbar';
-import HeroSection from 'src/components/HeroSection';
-import AboutSection from 'src/components/AboutSection';
-import InitiativesSection from 'src/components/InitiativesSection';
-import InfoBulletin from 'src/components/InfoBulletin';
-import TeamSection from 'src/components/TeamSection';
-import EventGallery from 'src/components/EventGallery';
-import ContactSection from 'src/components/ContactSection';
-import Footer from 'src/components/Footer';
-import TestimonialsSection from 'src/components/TestimonialsSection';
+import { Toaster } from '@/components/ui/toaster';
+import Navbar from '@/components/Navbar';
+import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import InitiativesSection from '@/components/InitiativesSection';
+import InfoBulletin from '@/components/InfoBulletin';
+import TeamSection from '@/components/TeamSection';
+import EventGallery from '@/components/EventGallery';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
+import TestimonialsSection from '@/components/TestimonialsSection';
 
 
 
