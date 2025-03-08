@@ -33,18 +33,11 @@ const Index: React.FC = () => {
       <HeroSection />
       <InfoBulletin />
       <AboutSection />
+      <TestimonialsSection />
       <InitiativesSection />
       <TeamSection />
       <EventGallery />
       <ContactSection />
-      <TestimonialsSection />
-      <Footer />
-
-
-
-
-      <Footer />
-
       <Footer />
       <Toaster />
     </main>
