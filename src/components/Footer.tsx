@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 
@@ -70,6 +69,12 @@ const Footer: React.FC = () => {
           <p className="text-muted-foreground text-sm">
             © {currentYear} Entrepreneurship Cell. All rights reserved.
           </p>
+          <p className="text-muted-foreground text-sm">
+            Created by Gourav Patidar and Divya Nagar. 
+            <a href="https://my-3d-portfolio-liard.vercel.app/" className="text-blue-500 hover:underline">Gourav's Portfolio</a> | 
+            <a href="https://divya-green.vercel.app/" className="text-blue-500 hover:underline">Divya's Portfolio</a>
+          </p>
+
         </div>
       </div>
     </footer>
