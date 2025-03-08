@@ -108,7 +108,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">Email</h3>
-                    <p className="text-muted-foreground">contact@ecell.com</p>
+                    <p className="text-muted-foreground">ecellscsit@gmail.com</p>
                   </div>
                 </div>
                 
@@ -121,7 +121,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">Location</h3>
-                    <p className="text-muted-foreground">123 University Ave, Campus Building</p>
+                    <p className="text-muted-foreground">139, Khandwa Rd, Indra Puri Colony, Indore, Madhya Pradesh 452001</p>
                   </div>
                 </div>
               </div>
